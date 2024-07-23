@@ -1,0 +1,41 @@
+﻿@model MVCFinallProje.UI.Areas.Admin.Models.PublisherVMs.AdminPublisherUpdateVM
+
+@{
+    ViewData["Title"] = "Update";
+}
+
+<h1>Update</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Update Publisher">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <div class="form-floating">
+                    <input type="text" class="form-control" style=" margin-bottom: 5px" id="floatingName" placeholder="Your Name">
+                    <label for="floatingName">Name</label>
+                </div>
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Adress" class="control-label"></label>
+                <div class="form-floating">
+                    <input type="text" class="form-control" style=" margin-bottom: 10px" id="floatingName" placeholder="Your Name">
+                    <label for="floatingName">Adress</label>
+                </div>
+                <span asp-validation-for="Adress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-success" /> <a class="btn btn-secondary" asp-action="Index">Back to List</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
