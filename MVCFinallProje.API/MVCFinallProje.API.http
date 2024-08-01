@@ -1,0 +1,6 @@
+@MVCFinallProje.API_HostAddress = http://localhost:5268
+
+GET {{MVCFinallProje.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
