@@ -1,4 +1,5 @@
-Kitap - yazar kayıt web otomasyon uygulaması
+Kitap - yazar kayıt web otomasyon uygulaması:
+
 Bu proje web tabanlı Admin ve Customer rol kontrollü bir kitap yazar kayıt uygulamasıdır. Admin sisteme giriş yaptığında kullanıcı kontrolü yapabilir ve yeni kullanıcı ekleyebilir veya silebilir. Aynı işlemleri yazar ve kitap sayfalarında da gerçekleştirebilir.
 Customer sisteme giriş yaptığında sistemde kayıtlı yazar ve kitapları görüntüleyebilir.
 
